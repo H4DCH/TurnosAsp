@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Turnos.Models.Medico>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Medico</h1>
+
+<p>
+    <a class="btn-floating" asp-action="Crear"> <i class="material-icons">person_add</i> </a>
+</p>
+<table class="responsive-table highlight">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreMedico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApellidoMedico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DireccionMedico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HorarioAtencioDesde)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HorarioAtencioHasta)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreMedico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApellidoMedico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DireccionMedico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HorarioAtencioDesde)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HorarioAtencioHasta)
+            </td>
+            <td>
+                    <a asp-action="Editar" asp-route-id="@item.IdMedico"><i class="material-icons">edit_square</i></a> |
+                    <a asp-action="Detalles" asp-route-id="@item.IdMedico"><i class="material-icons yellow-text">more_vert</i></a> |
+                    <a asp-action="Eliminar" asp-route-id="@item.IdMedico"><i class="material-icons red-text">delete_forever</i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

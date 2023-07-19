@@ -1,0 +1,29 @@
+﻿@model Turnos.Models.Especialidad
+
+<h4>Edicion Especialidad</h4>
+
+<div>
+    <form asp-action="Editar">
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="input-field col s6">
+                <i class="material-icons prefix">feed</i>
+                <input asp-for="Descripcion" type="text" class="validate">
+                <label asp-for="Descripcion"></label>
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6 m2">
+                <button asp-controller="Especialidad" asp-action="Editar" class="btn waves-effect waves-light" type="submit" name="action">
+                    Editar
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+            <div class=" col s6 m2">
+                <a asp-action="Index" class="waves-effect waves-light btn"><i class="material-icons left">undo</i>Volver</a>
+            </div>
+        </div>
+
+    </form>
+</div>

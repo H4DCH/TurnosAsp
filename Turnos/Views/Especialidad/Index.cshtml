@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Turnos.Models.Especialidad>
+<p>
+    <a class="btn-floating" asp-action="Crear"> <i class="material-icons">library_add</i> </a>
+</p>
+<html>
+    <head>
+        <title >Especialidad</title>
+    </head>
+    <body>
+
+            <h1>Especialidades</h1>
+            <div class="row">
+                <table class="responsive-table highlight">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Descripcion)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Descripcion)
+                                </td>
+                                 <td class="col s6">
+                                    <a asp-action="Editar" asp-route-id="@item.Id"><i class="material-icons">edit_square</i></a> 
+                                    <a asp-action="Eliminar" asp-route-id="@item.Id"><i class="material-icons red-text">delete_forever</i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+           </div>
+    </body>
+</html>

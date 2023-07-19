@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turnos", "Turnos\Turnos.csproj", "{99661AD9-1692-43D4-AAAC-67EDFAB8FAA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99661AD9-1692-43D4-AAAC-67EDFAB8FAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99661AD9-1692-43D4-AAAC-67EDFAB8FAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99661AD9-1692-43D4-AAAC-67EDFAB8FAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99661AD9-1692-43D4-AAAC-67EDFAB8FAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C04CC7A5-3B09-4B0F-AE73-C7223C9A0A97}
+	EndGlobalSection
+EndGlobal

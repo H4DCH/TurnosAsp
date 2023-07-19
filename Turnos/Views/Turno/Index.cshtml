@@ -1,0 +1,214 @@
+﻿@model  Turnos.Models.Turno
+@Html.AntiForgeryToken();
+@{
+    ViewBag.Title = "Asigancion de Turnos";
+}
+
+<div class="row">
+    <div class=" col s6">
+        <label asp-for="IdMedico" >Medico</label>
+        <select asp-for="IdMedico" asp-items="ViewBag.IdMedico"></select>
+    </div>
+    <div class=" col s6">
+        <label asp-for="IdPaciente">Paciente</label>
+        <select asp-for="IdPaciente" asp-items="ViewBag.IdPaciente"></select>
+    </div>
+</div>
+<br />
+<div id="ModalTurno" class="modal">
+    <div class="modal-content">
+        <h4>Turno</h4>
+        <form>
+            <div>
+                <label>Inicio</label>
+                <input type="text" id="txtFechaHoraInicio" readonly="readonly"/>
+                <label>Fin</label>
+                <input type="text" id="txtFechaHoraFin" readonly="readonly" />
+            </div>
+            <div>
+                <label>Paciente</label>
+                <input type="text" id="txtPaciente" readonly="readonly"/>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <a href="#" id="btnEliminar" class="modal-close waves-effect waves-red btn-flat" >Eliminar</a>
+        <a href="#" id="btnGuardar" class="modal-close waves-effect waves-green btn-flat">Guardar</a>
+        <a href="#" id="btnCerrar" class="modal-close waves-effect waves-grey btn-flat">Cerrar</a>
+    </div>
+</div>
+    
+<div id="Calendario"></div>
+<link href="~/FullCalendar/fullcalendar.css " rel="stylesheet"/>
+<link href="~/FullCalendar/fullcalendar.print.css" rel="stylesheet"  media="print"/>
+@section Scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+   
+    <script src="~/FullCalendar/fullcalendar.min.js"> </script>
+    <script src="~/FullCalendar/locale/es.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.modal').modal();
+            var horarioDesde = '';
+            var horarioHasta = '';
+            var turnos = [];
+            var Turnoseleccionado = [];
+
+            ObtenerTurnos($('#IdMedico').val());
+
+            $('#IdMedico').change(function(){
+                ObtenerTurnos(this.value);
+            });
+
+            function ObtenerTurnos(idMedico){
+                turnos = [];
+                $.ajax({
+                    type : "GET",
+                    url: "Turno/ObtenerTurnos",
+                    data: { 'IdMedico' : idMedico},
+                    success : function(datos){
+                        
+                        $.each(datos, function(i,v){
+                             turnos.push({
+                                idTurno: v.idTurno,
+                                idPaciente: v.idPaciente,
+                                idMedico: v.idMedico,
+                                start: moment(v.fechaHoraInicio),
+                                end:v.fechaHoraFin != null ? moment(v.fechaHoraFin) : null,
+                                paciente : v.paciente,
+                             });
+                        })
+                        GenerarCalendario(turnos);
+                    }, 
+                    error: function(){
+                        alert('Error al traer turnos');
+                    }
+                })
+            }
+            
+            function GenerarCalendario(turnos){
+                $.ajax({
+                    type : "GET",
+                    url: "Medico/TraerHorarioDesde",
+                    data: { 'IdMedico': $('#IdMedico').val()},
+                    async : false,
+                    success : function(resultado){
+                        horarioDesde = resultado;
+                    
+                    },
+                    error : function(){
+                        alert ('Error del Desde ');
+                    }
+                });
+
+            $.ajax({
+                type: "GET",
+                url: "Medico/TraerHorarioHasta",
+                data: { 'IdMedico': $('#IdMedico').val() },
+                async: false,
+                success: function(resultado){
+                horarioHasta = resultado;
+
+            },
+                error : function () {
+                    alert('Error del Hasta ');
+                }
+                        });
+
+                $('#Calendario').fullCalendar('destroy');
+
+                $('#Calendario').fullCalendar({
+                    contentHeight : "auto",
+                    defaultDate : new Date(),
+                    slotLabelFormat : "HH:mm",
+                    defaultView : 'agendaWeek',
+                    header : {
+                        left : 'prev,next,today',
+                        right : 'month,agendaWeek,agendaDay',
+                    },
+                    slotDuration : '00:30',
+                    nowIndicator : true,
+                    allDaySlot : false,
+                    selectable : true,
+                    eventLimit : true, 
+                    minTime : horarioDesde,
+                    maxTime : horarioHasta,
+                    events: turnos,
+                    select : function(fechaHoraInicio,fechaHoraFin){
+                        Turnoseleccionado = {
+                            idTurno : 0,
+                            start: fechaHoraInicio,
+                            end: fechaHoraFin,
+                        };
+                        AbrirPopup();
+                    },
+                    eventClick : function(turnoClick){
+                        Turnoseleccionado = turnoClick;
+                        AbrirPopup(); 
+                    }
+                })
+            }
+
+            function AbrirPopup(){
+                $('#txtFechaHoraInicio').val(Turnoseleccionado.start.format('DD/MM/YYYY HH:mm'));
+                $('#txtFechaHoraFin').val(Turnoseleccionado.end.format('DD/MM/YYYY HH:mm'));
+                if(Turnoseleccionado.idTurno == 0){
+                    $('#btnGuardar').show();
+                    $('#btnEliminar').hide();
+                    $('#txtPaciente').val($('#IdPaciente option:selected').text());
+                }else {
+                    $('#btnGuardar').hide();
+                    $('#btnEliminar').show();
+                    $('#txtPaciente').val(Turnoseleccionado.paciente);
+                }
+                $('#ModalTurno').modal('open');
+            }
+            
+            $('#btnGuardar').click(function(){
+                var datos = {
+                    IdPaciente: $('#IdPaciente').val(),
+                    IdMedico : $('#IdMedico').val(),
+                    FechaHoraInicio: $('#txtFechaHoraInicio').val(),
+                    FechaHoraFin: $('#txtFechaHoraFin').val()
+                }
+               GrabarTurno(datos);
+            })
+
+            function GrabarTurno(data){
+                $.ajax({
+                    type : "POST",
+                    url: 'Turno/GrabarTurnos',
+                    data: { 'Turno' : data},
+                    headers: { 'RequestVerificationToken': $('input[name = __RequestVerificationToken ]')},
+                    success : function(e){
+                        if(e.ok){
+                            ObtenerTurnos($('#IdMedico').val());
+                        }
+                    },
+                    error : function(){
+                        alert ('Error  al grabar');
+                    }
+                })
+            }
+            $('#btnEliminar').click(function(){
+                if(confirm('Esta Seguro de Eliminar el Turno???')){
+                    $.ajax({
+                        type : "POST",
+                        url: 'Turno/EliminarTurno',
+                        data: { 'IdTurno' : Turnoseleccionado.idTurno},
+                        headers: { 'RequestVerificationToken': $('input[name = __RequestVerificationToken ]') },
+                        success : function(e){
+                            if(e.ok){
+                                ObtenerTurnos($('#IdMedico').val());
+                            }
+                        },
+                        error : function(){
+                            alert('Error al eliminar');
+                        }
+                    })
+
+                }
+            })
+       })
+    </script>
+}    

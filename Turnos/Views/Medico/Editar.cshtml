@@ -1,0 +1,63 @@
+﻿@model Turnos.Models.Medico
+
+<h4 class="center">Edicion</h4>
+<hr />
+<div class="row">
+    <div>
+        <form class="col s8" asp-action="Editar" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdMedico" />
+            <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input asp-for="NombreMedico" type="text" class="validate">
+                <label asp-for="NombreMedico"></label>
+                <span asp-validation-for="NombreMedico" class="text-danger"></span>
+            </div>
+            <div class="input-field col s6">
+                <input asp-for="ApellidoMedico" type="text" class="validate">
+                <label asp-for="ApellidoMedico"></label>
+                <span asp-validation-for="ApellidoMedico" class="text-danger"></span>
+            </div>
+            <div class="input-field col s12">
+                <i class="material-icons prefix">markunread_mailbox</i>
+                <input asp-for="DireccionMedico" type="text" class="validate">
+                <label asp-for="DireccionMedico"></label>
+                <span asp-validation-for="DireccionMedico" class="text-danger"></span>
+            </div>
+            <div class="input-field col s12">
+                <i class="material-icons prefix">local_post_office</i>
+                <input asp-for="Email" type="text" class="validate">
+                <label asp-for="Email"></label>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="input-field col s12">
+                <i class="material-icons prefix">event_note</i>
+                <input asp-for="HorarioAtencioDesde" type="text" class="timepicker">
+                <label asp-for="HorarioAtencioDesde"></label>
+                <span asp-validation-for="HorarioAtencioDesde" class="text-danger"></span>
+            </div>
+            <div class="input-field col s12">
+                <i class="material-icons prefix">event_note</i>
+                <label asp-for="HorarioAtencioHasta" class=""></label>
+                <input asp-for="HorarioAtencioHasta" type="text" class="timepicker">
+                <span asp-validation-for="HorarioAtencioHasta" class="text-danger"></span>
+            </div>
+            <div class="input-field col s12 row">
+                <label class=""></label>
+                <select name="IdEspecialidad" class="" asp-items="ViewBag.ListaEspecialidades"></select>
+            </div>
+            <div class="col s6 m6">
+                <button asp-controller="Medico" asp-action="Editar" class="btn waves-effect waves-light" type="submit" name="action">
+                    Editar
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+            <div class=" col s6 m6">
+                <a asp-action="Index" class="waves-effect waves-light btn"><i class="material-icons left">undo</i>Volver</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
