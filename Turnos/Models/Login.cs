@@ -5,7 +5,7 @@ namespace Turnos.Models
     public class Login
     {
         [Key]
-        public int login { get; set; }
+        public int? login { get; set; }
 
         [Required(ErrorMessage ="Debe Ingresar un Usuario")]
         public string? Usuario { get; set; }

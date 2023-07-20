@@ -177,9 +177,9 @@
             function GrabarTurno(data){
                 $.ajax({
                     type : "POST",
-                    url: 'Turno/GrabarTurnos',
+                    url: "Turno/GrabarTurnos",
                     data: { 'Turno' : data},
-                    headers: { 'RequestVerificationToken': $('input[name = __RequestVerificationToken ]')},
+                    headers: { 'RequestVerificationToken': $('input[name = "__RequestVerificationToken"]').val()},
                     success : function(e){
                         if(e.ok){
                             ObtenerTurnos($('#IdMedico').val());
@@ -196,7 +196,7 @@
                         type : "POST",
                         url: 'Turno/EliminarTurno',
                         data: { 'IdTurno' : Turnoseleccionado.idTurno},
-                        headers: { 'RequestVerificationToken': $('input[name = __RequestVerificationToken ]') },
+                        headers: { 'RequestVerificationToken': $('input[name = "__RequestVerificationToken"]').val() },
                         success : function(e){
                             if(e.ok){
                                 ObtenerTurnos($('#IdMedico').val());

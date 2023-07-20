@@ -5,6 +5,7 @@ using Turnos.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 //Inyeccion 
 
 builder.Services.AddDbContext<TurnosContext>(options => options.UseSqlServer("name=ConnectionStrings:Turnoscontext"));
@@ -13,7 +14,7 @@ builder.Services.AddSession(option => option.IdleTimeout = TimeSpan.FromSeconds(
 builder.Services.AddSession(option => option.Cookie.HttpOnly = true);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews(options => options.Filters.Add(new ValidateAntiForgeryTokenAttribute()));
+builder.Services.AddControllersWithViews(options => options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute()));
 
 var app = builder.Build();
 
