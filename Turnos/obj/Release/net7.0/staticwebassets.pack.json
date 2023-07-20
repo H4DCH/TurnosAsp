@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\Turnos.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Turnos.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\FullCalendar\\fullcalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\fullcalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\FullCalendar\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\fullcalendar.print.css",
+      "PackagePath": "staticwebassets\\FullCalendar\\fullcalendar.print.css"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\fullcalendar.print.min.css",
+      "PackagePath": "staticwebassets\\FullCalendar\\fullcalendar.print.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\gcal.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\gcal.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\gcal.min.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\gcal.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale-all.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale-all.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\af.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\be.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\be.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\bs.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\da.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\de-at.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\de.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\el.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\en-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\en-ie.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\en-nz.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\es-do.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\es-us.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\es-us.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\es.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\et.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\he.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\id.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\is.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\is.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\it.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ka.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ka.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\kk.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\lb.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\mk.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ms-my.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\nl-be.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\nn.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\sq.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\th.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\zh-hk.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\zh-hk.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\FullCalendar\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\FullCalendar\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\css\\materialize.css",
+      "PackagePath": "staticwebassets\\css\\materialize.css"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\css\\materialize.min.css",
+      "PackagePath": "staticwebassets\\css\\materialize.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\js\\materialize.js",
+      "PackagePath": "staticwebassets\\js\\materialize.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\js\\materialize.min.js",
+      "PackagePath": "staticwebassets\\js\\materialize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery\\dist\\code.jquery.com_jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\code.jquery.com_jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Harry\\source\\repos\\Turnos\\Turnos\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.Turnos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.Turnos.props",
+      "PackagePath": "build\\Turnos.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Turnos.props",
+      "PackagePath": "buildMultiTargeting\\Turnos.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.Turnos.props",
+      "PackagePath": "buildTransitive\\Turnos.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
